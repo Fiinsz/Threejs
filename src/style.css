@@ -180,11 +180,19 @@ button:focus-visible {
     justify-content: center;
     align-items: center;
     pointer-events: auto;
+    background: rgba(24,28,32,0.92); /* Add background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 2px 12px #0005;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    z-index: 10; /* Ensure on top */
+    padding: 8px 0;
   }
   .portfolio-link {
-    font-size: 0.95rem;
-    padding: 10px 12px;
+    font-size: 1rem;
+    padding: 10px 14px;
     border-radius: 8px;
+    min-width: 90px;
+    text-align: center;
   }
 }
 
